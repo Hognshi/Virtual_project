@@ -23,7 +23,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Recorder.MovieRecorderEditor
     - UnityEditor.Recorder.MovieRecorderSettings
     - UnityEditor.Recorder.RecorderControllerSettings
-    - UnityEditor.Recorder.RecorderPreferencesSettings
     - UnityEditor.Recorder.RecorderSettingsPrefsEditor
     - UnityEditor.Recorder.RecorderWindow
     Unity.Rider.Editor.dll:
@@ -33,8 +32,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Timeline.SequenceHierarchy
     - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
-    Unity.Timeline.dll:
-    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -113,57 +110,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1860}
     - Class: 114
-      Script: {instanceID: 3006}
+      Script: {instanceID: 3012}
     - Class: 114
-      Script: {instanceID: 3020}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 3752}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 4420}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4836}
+      Script: {instanceID: 4866}
     - Class: 114
-      Script: {instanceID: 4886}
+      Script: {instanceID: 4916}
     - Class: 114
-      Script: {instanceID: 4978}
+      Script: {instanceID: 5008}
     - Class: 114
-      Script: {instanceID: 5406}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 5438}
     - Class: 114
-      Script: {instanceID: 5834}
+      Script: {instanceID: 5822}
     - Class: 114
-      Script: {instanceID: 6180}
+      Script: {instanceID: 5882}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 6234}
     - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 6734}
     - Class: 114
-      Script: {instanceID: 7594}
+      Script: {instanceID: 7350}
     - Class: 114
-      Script: {instanceID: 7782}
+      Script: {instanceID: 7662}
     - Class: 114
-      Script: {instanceID: 7830}
+      Script: {instanceID: 7850}
     - Class: 114
-      Script: {instanceID: 7922}
+      Script: {instanceID: 7898}
     - Class: 114
-      Script: {instanceID: 8034}
+      Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 8866}
+      Script: {instanceID: 8934}
     - Class: 114
-      Script: {instanceID: 9236}
+      Script: {instanceID: 9152}
     - Class: 114
-      Script: {instanceID: 9316}
+      Script: {instanceID: 9310}
     - Class: 114
-      Script: {instanceID: 36758}
+      Script: {instanceID: 9396}
     - Class: 114
-      Script: {instanceID: 36780}
+      Script: {instanceID: 27390}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -195,6 +192,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 2c52a5ff867a98da16a0385179e56316
+    assemblyName: Klak.Ndi.Runtime
+    namespaceName: Klak.Ndi
+    className: NdiSender
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -557,6 +560,12 @@ ScriptsOnlyBuild:
     className: FastSpringBoneColliderGroup
   - hash:
       serializedVersion: 2
+      Hash: 93bf7c05a258e5e237f34988b97bd618
+    assemblyName: Klak.Ndi.Runtime
+    namespaceName: Klak.Ndi
+    className: NdiReceiver
+  - hash:
+      serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -675,6 +684,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 74259e4fe2a1186b0b7edd5bf3b40ce7
+    assemblyName: Klak.Ndi.Runtime
+    namespaceName: Klak.Ndi
+    className: NdiResources
   - hash:
       serializedVersion: 2
       Hash: 65767741635863493028f7536998308e
@@ -941,6 +956,12 @@ ScriptsOnlyBuild:
     className: Blinker
   - hash:
       serializedVersion: 2
+      Hash: 296bff52c07cbb63867b2984f3d79707
+    assemblyName: Klak.Spout.Runtime
+    namespaceName: Klak.Spout
+    className: SpoutResources
+  - hash:
+      serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1161,6 +1182,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: af88f849c29d47e9cc0e4c649ab8785e
+    assemblyName: Klak.Spout.Runtime
+    namespaceName: Klak.Spout
+    className: SpoutReceiver
   - hash:
       serializedVersion: 2
       Hash: 07f40a39e3ad3cd551a5f3c327860035
@@ -1697,6 +1724,12 @@ ScriptsOnlyBuild:
     className: StateMachine
   - hash:
       serializedVersion: 2
+      Hash: 23986eb1a373a3e845e2ed247ac4b5d7
+    assemblyName: Klak.Spout.Runtime
+    namespaceName: Klak.Spout
+    className: SpoutSender
+  - hash:
+      serializedVersion: 2
       Hash: ccfd77c2c30738256a81f52216f6df54
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1785,43 +1818,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 2c52a5ff867a98da16a0385179e56316
-    assemblyName: Klak.Ndi.Runtime
-    namespaceName: Klak.Ndi
-    className: NdiSender
-  - hash:
-      serializedVersion: 2
-      Hash: 93bf7c05a258e5e237f34988b97bd618
-    assemblyName: Klak.Ndi.Runtime
-    namespaceName: Klak.Ndi
-    className: NdiReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 74259e4fe2a1186b0b7edd5bf3b40ce7
-    assemblyName: Klak.Ndi.Runtime
-    namespaceName: Klak.Ndi
-    className: NdiResources
-  - hash:
-      serializedVersion: 2
-      Hash: 296bff52c07cbb63867b2984f3d79707
-    assemblyName: Klak.Spout.Runtime
-    namespaceName: Klak.Spout
-    className: SpoutResources
-  - hash:
-      serializedVersion: 2
-      Hash: af88f849c29d47e9cc0e4c649ab8785e
-    assemblyName: Klak.Spout.Runtime
-    namespaceName: Klak.Spout
-    className: SpoutReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 23986eb1a373a3e845e2ed247ac4b5d7
-    assemblyName: Klak.Spout.Runtime
-    namespaceName: Klak.Spout
-    className: SpoutSender
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/nipa/Documents/GitHub/Virtual_project/Build project/Virtual_project.exe
+  playerPath: C:/Users/nipa/Documents/GitHub/Virtual_project/Build/Virtual_project.exe
