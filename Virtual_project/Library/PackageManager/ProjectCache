@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638327581776903605
-    m_Hash: 2738681934
+      ticks: 638327733903495811
+    m_Hash: 763938242
   m_LockFileStatus:
     m_FilePath: C:/Users/nipa/Documents/GitHub/Virtual_project/Virtual_project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638327581781039662
-    m_Hash: 3890438711
+      ticks: 638327733903545820
+    m_Hash: 2093438720
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -882,6 +882,178 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.8.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: jp.keijiro.klak.ndi@2.1.0
+  testable: 0
+  isDirectDependency: 1
+  version: 2.1.0
+  source: 1
+  resolvedPath: C:\Users\nipa\Documents\GitHub\Virtual_project\Virtual_project\Library\PackageCache\jp.keijiro.klak.ndi@2.1.0
+  assetPath: Packages/jp.keijiro.klak.ndi
+  name: jp.keijiro.klak.ndi
+  displayName: KlakNDI
+  author:
+    name: Keijiro Takahashi
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "NewTek NDI\xAE plugin for Unity"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.3
+    - 0.2.4
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 1.0.8
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 1.0.12
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.1.0
+    compatible:
+    - 0.2.3
+    - 0.2.4
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 1.0.8
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 1.0.12
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.1.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords:
+  - unity
+  registry:
+    id: scoped:project:Keijiro
+    name: Keijiro
+    url: https://registry.npmjs.com
+    scopes:
+    - jp.keijiro
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638048739645180000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: jp.keijiro.klak.spout@2.0.3
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.3
+  source: 1
+  resolvedPath: C:\Users\nipa\Documents\GitHub\Virtual_project\Virtual_project\Library\PackageCache\jp.keijiro.klak.spout@2.0.3
+  assetPath: Packages/jp.keijiro.klak.spout
+  name: jp.keijiro.klak.spout
+  displayName: KlakSpout
+  author:
+    name: Keijiro Takahashi
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Cross-process texture sharing plugin (Spout protocol)
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords:
+  - unity
+  registry:
+    id: scoped:project:Keijiro
+    name: Keijiro
+    url: https://registry.npmjs.com
+    scopes:
+    - jp.keijiro
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637634904256120000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/keijiro/KlakSpout.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
