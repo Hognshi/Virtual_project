@@ -1,0 +1,409 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.3f1 (7cdc2969a641) revision 8182825'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 65309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nipa/Documents/GitHub/Virtual_project/Virtual_project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53051
+Successfully changed project path to: C:/Users/nipa/Documents/GitHub/Virtual_project/Virtual_project
+C:/Users/nipa/Documents/GitHub/Virtual_project/Virtual_project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17272] Host "[IP] 172.30.1.66 [Port] 0 [Flags] 2 [Guid] 811875857 [EditorId] 811875857 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JJSU8G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17272] Host "[IP] 172.30.1.66 [Port] 0 [Flags] 2 [Guid] 811875857 [EditorId] 811875857 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JJSU8G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 830.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.3f1 (7cdc2969a641)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nipa/Documents/GitHub/Virtual_project/Virtual_project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12100 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.058783 seconds.
+- Loaded All Assemblies, in  3.395 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 3649ms
+	BeginReloadAssembly (2490ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (222ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (563ms)
+		LoadAssemblies (2488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (557ms)
+			TypeCache.Refresh (556ms)
+				TypeCache.ScanAssembly (425ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nipa\Documents\GitHub\Virtual_project\Virtual_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nipa\Documents\GitHub\Virtual_project\Virtual_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.805 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 4262ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (3613ms)
+		LoadAssemblies (3271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (389ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (333ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (331.7 KB). Loaded Objects now: 4092.
+Memory consumption went from 130.3 MB to 129.9 MB.
+Total: 3.113200 ms (FindLiveObjects: 0.365200 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.447400 ms  DeleteObjects: 0.200200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 187125.976523 seconds.
+  path: Assets/Virtual/Model/virtual.fbx
+  artifactKey: Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/Model/virtual.fbx using Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3060a0988a512e9a8881f73ad4eb4743') in 0.304573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 460
+========================================================================
+Received Import Request.
+  Time since last request: 3.639532 seconds.
+  path: Assets/Virtual/Model/virtual.fbx
+  artifactKey: Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/Model/virtual.fbx using Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886297909872c45f121a0021ca05bf02') in 0.108162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 461
+========================================================================
+Received Import Request.
+  Time since last request: 91.643965 seconds.
+  path: Assets/Virtual/Model/virtual.fbx
+  artifactKey: Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/Model/virtual.fbx using Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bbd164e620fd19ceb624af3aced455') in 0.074066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 462
+========================================================================
+Received Import Request.
+  Time since last request: 531.075430 seconds.
+  path: Assets/Virtual/Model/virtual.fbx
+  artifactKey: Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/Model/virtual.fbx using Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fe60fdd2dab6649a3a26b6c82320ad') in 0.213812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 464
+========================================================================
+Received Import Request.
+  Time since last request: 99.481094 seconds.
+  path: Assets/Virtual/Model/virtual.fbx
+  artifactKey: Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/Model/virtual.fbx using Guid(dde1818716e05394a9ed47092f0fe000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd66de818039080f7fa14e88495844d6') in 0.187038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 464
+========================================================================
+Received Import Request.
+  Time since last request: 787.526155 seconds.
+  path: Assets/Virtual/VRM/virtual.Avatar
+  artifactKey: Guid(603c94cd1d0534d439b701385883470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.Avatar using Guid(603c94cd1d0534d439b701385883470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562df8f5332dd19becb1f630e9d64fbc') in 0.000814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.749284 seconds.
+  path: Assets/Virtual/VRM/virtual.vrm
+  artifactKey: Guid(967f20f8ac22b24419548ca802f941c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.vrm using Guid(967f20f8ac22b24419548ca802f941c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb83736db2e7abbf42ac6384d1d6971') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.240136 seconds.
+  path: Assets/Virtual/VRM/virtual.prefab
+  artifactKey: Guid(091a61527142f0b45ade60f8e3706eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.prefab using Guid(091a61527142f0b45ade60f8e3706eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb4444748eec3558d1b2da9250dfffb') in 0.133221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 495
+========================================================================
+Received Import Request.
+  Time since last request: 128.439780 seconds.
+  path: Assets/Virtual/VRM/virtual.BlendShapes
+  artifactKey: Guid(133a045808c33f849a743030f07a430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.BlendShapes using Guid(133a045808c33f849a743030f07a430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0348ab1d16e893517bba0356201f954e') in 0.000779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.675795 seconds.
+  path: Assets/Virtual/VRM/virtual.BlendShapes/BlendShape.asset
+  artifactKey: Guid(258b4b20a126b024da84792e74a41314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.BlendShapes/BlendShape.asset using Guid(258b4b20a126b024da84792e74a41314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7831d699d3aa4cf1fa005d6ac49e9e1f') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 789.813250 seconds.
+  path: Assets/Virtual/VRM/virtual.BlendShapes/A.asset
+  artifactKey: Guid(21f347126188ea8438bc5d416a045e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.BlendShapes/A.asset using Guid(21f347126188ea8438bc5d416a045e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c9458b3def3bb5590715471f8a599a') in 0.001240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 804.435369 seconds.
+  path: Assets/Virtual/VRMtest
+  artifactKey: Guid(70d0500973f36cf44917e921e6c75fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRMtest using Guid(70d0500973f36cf44917e921e6c75fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81df0b54d365e858bc15575a89eec8ea') in 0.000577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.945941 seconds.
+  path: Assets/Virtual/VRM/virtual.Textures
+  artifactKey: Guid(c30e077c7136aa746b0b20fcc27da51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.Textures using Guid(c30e077c7136aa746b0b20fcc27da51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8d558e309904c5847a87768028dcb5') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.205895 seconds.
+  path: Assets/Virtual/VRM/virtual.AvatarDescription
+  artifactKey: Guid(2af88f6f976f09743b789163cdcc4c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.AvatarDescription using Guid(2af88f6f976f09743b789163cdcc4c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3c42a81fb71a93963b280eb5795284') in 0.000615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.420231 seconds.
+  path: Assets/Virtual/VRM/virtual.BlendShapes/Angry.asset
+  artifactKey: Guid(3f999c141c2c57c4cadfd2f63b10e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.BlendShapes/Angry.asset using Guid(3f999c141c2c57c4cadfd2f63b10e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d360a9b2252f0ab34fac0235d714d4') in 0.001146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.616170 seconds.
+  path: Assets/Virtual/VRM/virtual.BlendShapes/Blink.asset
+  artifactKey: Guid(f056f5da37507ef4f943a0e74e17ff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRM/virtual.BlendShapes/Blink.asset using Guid(f056f5da37507ef4f943a0e74e17ff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4dc4ff6a69807aa07b65ed1cb5b8e6') in 0.001103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.947809 seconds.
+  path: Assets/Virtual/VRMtest/vrm_실습.prefab
+  artifactKey: Guid(f6541313dfdd77c45800db0089457c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRMtest/vrm_실습.prefab using Guid(f6541313dfdd77c45800db0089457c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3a4c95361cb71f865b34a7e15f1380') in 0.189500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 512
+========================================================================
+Received Import Request.
+  Time since last request: 27.964737 seconds.
+  path: Assets/Virtual/VRMtest/vrm_실습.Avatar
+  artifactKey: Guid(530eda8116a2d2648acff463cdd492bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Virtual/VRMtest/vrm_실습.Avatar using Guid(530eda8116a2d2648acff463cdd492bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fd93ac717a54071dc506405296eb45') in 0.000715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nipa\Documents\GitHub\Virtual_project\Virtual_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nipa\Documents\GitHub\Virtual_project\Virtual_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.654 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Virtual_project
+<RI> Initialized touch support.
+<RI> Initializing input.
+<RI> Input initialized.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 1541ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (236ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3676 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (296.4 KB). Loaded Objects now: 4196.
+Memory consumption went from 137.2 MB to 136.9 MB.
+Total: 3.059900 ms (FindLiveObjects: 0.386000 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.376300 ms  DeleteObjects: 0.188900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 470.618187 seconds.
+  path: Assets/EVMC4U
+  artifactKey: Guid(f265d3b79baedc046a3ff59ee213ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EVMC4U using Guid(f265d3b79baedc046a3ff59ee213ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f094315736c9299fa01f6ea41b0492d') in 0.002306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.055818 seconds.
+  path: Assets/EVMC4U/ExternalReceiver.prefab
+  artifactKey: Guid(86b1e8192cb57cd47890882526664df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EVMC4U/ExternalReceiver.prefab using Guid(86b1e8192cb57cd47890882526664df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ebbfa2284c19a4b2945a8a9c9f924b') in 0.029528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
